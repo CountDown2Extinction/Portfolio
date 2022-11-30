@@ -3,6 +3,7 @@ import './header.css';
 import CTA from './CTA';
 // import Diamond from './diamond/Diamond.jsx';
 // import Visualizer from './visualizer/Visualizer';
+import HeaderSocial from './HeaderSocial';
 
 const Header = () => {
   return (
@@ -14,8 +15,8 @@ const Header = () => {
         <CTA />
         {/* <Diamond className="Diamond"></Diamond> */}
         {/* <Visualizer /> */}
-
-
+        <a href='#contact' className='scroll_down'>Scroll Down</a>
+        <HeaderSocial />
       </div>
     </header>
   )
