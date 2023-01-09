@@ -16,14 +16,16 @@
     --color-primary:#D4A59A;
     --color-primary-variant:#F3E0DC;
     --color-white:#fff;
-    --color-light:#FFCB9A;
+    --color-light-variant:#FFCB9A;
+    --color-light:#FFFDD0;
+
     --color-button:#4285f4;
 
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 }
 
 html{
@@ -70,7 +72,7 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 section > h2, section > h5 {
